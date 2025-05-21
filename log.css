@@ -652,3 +652,167 @@ nav ul li a:hover {
     color: #98C7FC;
 }
 
+/* --- Footer Styles --- */
+footer {
+  background: linear-gradient(90deg, #0a0730 60%, #5ab9ff 100%);
+  color: #e0eaff;
+  padding: 36px 0 18px 0;
+  text-align: center;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1rem; 
+  letter-spacing: 1.5px;
+  border-top: 2px solid #5ab9ff;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 -4px 24px #5ab9ff22;
+  flex-shrink: 0;
+}
+
+.footer-logo {
+  display: block;
+  margin: 0 auto 8px auto;
+  height: 48px;
+}
+
+.footer-logo img {
+  height: 48px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin: 0 auto;
+  color: #e0eaff;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 1.45;
+}
+
+.footer-contact p {
+  margin: 0 0 4px 0;
+  font-weight: bold;
+}
+
+.footer-contact strong {
+  color: #fff;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.footer-contact a {
+  color: #5ab9ff;
+  text-decoration: none;
+  margin: 0 8px 0 0;
+  font-weight: bold;
+  transition: color 0.2s;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.footer-contact a i {
+  margin-right: 4px;
+  font-size: 1.15em;
+  vertical-align: middle;
+}
+
+.footer-contact a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #5ab9ff;
+}
+
+/* Social icons in footer */
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.social a {
+  color: #5ab9ff;
+  font-size: 2rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.social a:hover {
+  color: #ffe066;
+  transform: scale(1.15) rotate(-8deg);
+}
+
+.footer-box {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 32px 24px 32px;
+  text-align: left;
+  min-width: 180px;
+  max-width: 260px;
+}
+
+.footer-box h2,
+.footer-box h3 {
+  color: #5ab9ff;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  margin-top: 0;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+  color: #e0eaff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.footer-box ul li a:hover {
+  color: #ffe066;
+  text-shadow: 0 0 8px #5ab9ff;
+}
+
+.footer-box .contact span {
+  display: block;
+  margin-bottom: 8px;
+  color: #e0eaff;
+  font-size: 1rem;
+}
+
+.copyright {
+  background: #0a0730;
+  color: #b3e3ff;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 0 8px 0;
+  letter-spacing: 1.2px;
+  border-top: 1px solid #5ab9ff;
+  font-family: 'Press Start 2P', monospace;
+}
+
+@media (max-width: 900px) {
+  .footer-box {
+    display: block;
+    margin: 0 auto 32px auto;
+    text-align: center;
+    min-width: unset;
+    max-width: unset;
+  }
+  .footer-logo {
+    margin-bottom: 16px;
+  }
+  .footer-contact {
+    font-size: 0.95em;
+  }
+}
+
